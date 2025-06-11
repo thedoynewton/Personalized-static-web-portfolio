@@ -1,0 +1,13 @@
+nav, button {
+  display: none !important;
+}
+body {
+  background: #fff !important;
+  color: #000 !important;
+  margin: 0.5in !important;
+}
+section, header {
+  box-shadow: none !important;
+  background: #fff !important;
+  padding: 0 !important;
+}
