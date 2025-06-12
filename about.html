@@ -1,11 +1,135 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <a href="resume.html">Resume</a>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Me</title>
+    <link rel="stylesheet" href="styles/about.css" />
+    <link rel="stylesheet" href="styles/nav.css" />
+    <link rel="stylesheet" href="styles/button.css" />
+    <link rel="stylesheet" href="styles/main.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="nav-logo">💻<span>ramz</span></div>
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="project.html">Projects</a>
+        <a href="techStack.html">Tech Stack</a>
+        <a href="blog.html">Blog</a>
+      </div>
+      <div class="nav-actions">
+        <span class="nav-icon">🌗</span>
+        <button class="message-btn">Send a Message</button>
+      </div>
+    </nav>
+    <div class="about-container">
+      <aside class="sidebar">
+        <header>
+          <a href="images/profile.jpg" target="_blank" class="profile-pic-link">
+            <img
+              src="images/profile.jpg"
+              alt="Profile picture of Diosdado Isaac Ramos"
+              class="profile-pic"
+            />
+          </a>
+          <h1>Diosdado Isaac Ramos</h1>
+          <h3>- Web Developer -</h3>
+        </header>
+        <section class="skills-section">
+          <div class="keywords">
+            <span class="keyword">Tech-savvy</span>
+            <span class="keyword">Adaptable</span>
+            <span class="keyword">Always curious</span>
+            <span class="keyword">Always willing to learn</span>
+            <span class="keyword">Problem-based learning</span>
+            <span class="keyword">Problem-solver</span>
+          </div>
+        </section>
+      </aside>
+      <main class="main-content">
+        <section class="about-me">
+          <h2>About Me</h2>
+          <p>
+            I am web developer, highly motivated and quick-learning individual
+            eager to contribute to the development of modern web solutions.
+            <br /><br />
+            Proficient in building contemporary designs and collaborating
+            effectively to create impactful computing solutions, including
+            systems for inventory management, broadcasting SMS systems,
+            e-commerce, and marketplace platforms. Experienced in database
+            management using SQL Server, Supabase, and MySQL.
+          </p>
+        </section>
+        <section class="my-journey">
+          <h2>My Journey</h2>
+          <div class="timeline-container">
+            <a
+              href="images/intern.jpg"
+              target="_blank"
+              class="timeline-photo-link"
+            >
+              <img
+                src="images/intern.jpg"
+                alt="Student Intern Photo"
+                class="timeline-photo"
+              />
+            </a>
+            <div class="timeline-left">
+              <div class="timeline-entry">
+                <div class="company">Student Intern</div>
+                <div class="date">June 2024 - December 2025</div>
+              </div>
+            </div>
+            <div class="timeline-middle">
+              <div class="timeline-dot green"></div>
+              <div class="timeline-line"></div>
+            </div>
+            <div class="timeline-right">
+              <div class="timeline-role">
+                <div class="role-title">Web Developer</div>
+                <div class="role-desc">
+                  Developed a SMS Broadcasting System for students and employees
+                  to all campuses of University of Southeastern Philippines
+                  using Laravel 11 and SQL Server database, enhancing communication
+                  across all campuses.
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- New Journey Entry -->
+          <!-- <div class="timeline-container">
+            <img
+              src="images/portfolio.jpg"
+              alt="Portfolio Project Photo"
+              class="timeline-photo"
+            />
+            <div class="timeline-left">
+              <div class="timeline-entry">
+                <div class="company">Freelance</div>
+                <div class="date">January 2023 - May 2024</div>
+              </div>
+            </div>
+            <div class="timeline-middle">
+              <div class="timeline-dot yellow"></div>
+              <div class="timeline-line"></div>
+            </div>
+            <div class="timeline-right">
+              <div class="timeline-role">
+                <div class="role-title">Full Stack Developer</div>
+                <div class="role-desc">
+                  Designed and developed multiple portfolio and e-commerce
+                  websites for clients using React, Node.js, and Supabase.
+                  Improved client branding and online presence through modern,
+                  responsive web solutions.
+                </div>
+              </div>
+            </div>
+          </div> -->
+        </section>
+      </main>
+    </div>
+  </body>
 </html>
