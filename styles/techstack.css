@@ -5,8 +5,6 @@
   padding: 1.5rem;
   box-sizing: border-box;
 }
-
-
 .techstack-main h1 {
   font-size: 2.2rem;
   font-weight: 700;
@@ -75,6 +73,9 @@
   margin: 0.7rem 0 0.3rem 0;
   overflow: hidden;
 }
+body.light-mode .stack-progress {
+  background: #a7a7a7; /* gray for light mode */
+}
 .progress-bar {
   height: 100%;
   border-radius: 8px;
@@ -107,14 +108,30 @@
 .stack-level.basic,.progress-bar.basic {
   color: #ff9800;
 }
+body.light-mode .stack-level.basic {
+  color: #fff !important;
+  background: #ff9800 !important;
+}
 .stack-level.intermediate, .progress-bar.intermediate {
   color: #2196f3;
+}
+body.light-mode .stack-level.intermediate {
+  color: #fff !important;
+  background: #2196f3 !important;
 }
 .stack-level.advanced, .progress-bar.advanced {
   color: #4caf50;
 }
+body.light-mode .stack-level.advanced {
+  color: #fff !important;
+  background: #4caf50 !important;
+}
 .stack-level.expert, .progress-bar.expert {
   color: #ffd700;
+}
+body.light-mode .stack-level.expert {
+  color: #fff !important;
+  background: #ffd700 !important;
 }
 
 @media (max-width: 700px) {

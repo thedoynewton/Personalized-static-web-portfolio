@@ -364,6 +364,10 @@
   color: #f5f5f5;
   word-break: break-all;
 }
+/* Light mode adjustment */
+body.light-mode .contact-value {
+  color: #000000; /* Deeper blue for light backgrounds */
+}
 .contact-value a {
   color: #3e85f8;
   text-decoration: none;

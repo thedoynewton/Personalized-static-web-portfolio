@@ -1,0 +1,170 @@
+/* --- Theme base --- */
+body.dark-mode {
+  background: #111 !important;
+  color: #fff !important;
+}
+body.light-mode {
+  background: #fff !important;
+  color: #222 !important;
+}
+body.light-mode h1,
+body.light-mode h2,
+body.light-mode h3,
+body.light-mode h4,
+body.light-mode h5,
+body.light-mode h6 {
+  color: #222 !important;
+}
+body.dark-mode h1,
+body.dark-mode h2,
+body.dark-mode h3,
+body.dark-mode h4,
+body.dark-mode h5,
+body.dark-mode h6 {
+  color: #fff !important;
+}
+
+/* --- Nav --- */
+body.light-mode nav,
+body.light-mode .nav-logo,
+body.light-mode .nav-links a,
+body.light-mode .nav-actions {
+  background: transparent !important;
+  color: #222 !important;
+}
+body.light-mode .nav-links a {
+  color: #222 !important;
+}
+body.light-mode .nav-links a:hover {
+  color: #006fdd !important;
+}
+body.light-mode .nav-icon {
+  color: #006fdd !important;
+}
+
+/* --- Footer --- */
+body.light-mode .site-footer {
+  color: #006fdd !important;
+  background: transparent !important;
+}
+
+/* --- Buttons --- */
+body.light-mode .message-btn,
+body.light-mode .action-btn.outline {
+  color: #222 !important;
+  border-color: #006fdd !important;
+}
+body.light-mode .message-btn:hover,
+body.light-mode .action-btn.outline:hover {
+  background: #006fdd !important;
+  color: #fff !important;
+}
+
+/* --- Blog Maintenance Page --- */
+body.light-mode .maintenance-container {
+  background: rgba(240, 240, 240, 0.98) !important;
+  border: 1px solid #e0e0e0 !important;
+}
+body.light-mode .maintenance-container h1 {
+  color: #006fdd !important;
+}
+body.light-mode .maintenance-container p {
+  color: #444 !important;
+}
+body.light-mode .maintenance-btn {
+  background: #006fdd !important;
+  color: #fff !important;
+}
+body.light-mode .maintenance-btn:hover {
+  background: #005bb5 !important;
+}
+
+/* --- Tech Stack --- */
+body.light-mode .techstack-main h1,
+body.light-mode .stack-category h2 {
+  color: #222 !important;
+}
+body.light-mode .stack-card {
+  background: #f5f5f5 !important;
+  color: #222 !important;
+  border: 1px solid #e0e0e0 !important;
+}
+body.light-mode .stack-icon {
+  background: #e0e0e0 !important;
+}
+body.light-mode .stack-level {
+  background: #e0e0e0 !important;
+  color: #222 !important;
+}
+
+/* --- Projects --- */
+body.light-mode .projects-main {
+  background: transparent !important;
+}
+body.light-mode .project-card {
+  background: #f5f5f5 !important;
+  color: #222 !important;
+  border: 1px solid #e0e0e0 !important;
+}
+body.light-mode .project-content h3 {
+  color: #222 !important;
+}
+body.light-mode .project-content p {
+  color: #444 !important;
+}
+body.light-mode .project-category-title {
+  color: #006fdd !important;
+}
+
+/* --- About Page --- */
+body.light-mode .sidebar {
+  background: #f5f5f5 !important;
+  color: #222 !important;
+  border-right: 1px solid #e0e0e0 !important;
+}
+body.light-mode .sidebar header h1,
+body.light-mode .sidebar header h3 {
+  color: #222 !important;
+}
+body.light-mode .keyword {
+  background: #e0e0e0 !important;
+  color: #222 !important;
+  border: 1px solid #ccc !important;
+}
+body.light-mode .main-content h2 {
+  color: #222 !important;
+}
+body.light-mode .about-me p {
+  color: #222 !important;
+}
+body.light-mode .timeline-entry .company,
+body.light-mode .role-title {
+  color: #222 !important;
+}
+body.light-mode .timeline-entry .date,
+body.light-mode .role-desc {
+  color: #444 !important;
+}
+body.light-mode .social-link {
+  color: #222 !important;
+}
+body.light-mode .social-link[href*="github.com"] {
+  background: #e0e0e0 !important;
+  color: #222 !important;
+  border-color: #e0e0e0 !important;
+}
+body.light-mode .social-link[href*="facebook.com"] {
+  background: #e3f0fb !important;
+  color: #1877f3 !important;
+  border-color: #e3f0fb !important;
+}
+body.light-mode .social-link[href*="instagram.com"] {
+  background: linear-gradient(90deg, #f58529 0%, #dd2a7b 50%, #515bd4 100%) !important;
+  color: #fff !important;
+}
+
+/* --- Quote Section --- */
+body.light-mode .quote-section blockquote {
+  color: #222 !important;
+  border-left: 4px solid #006fdd !important;
+}

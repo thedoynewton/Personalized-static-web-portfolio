@@ -17,7 +17,8 @@ nav {
 }
 
 .nav-logo span {
-  color: #fff;
+  color: #00bfff; /* Bright blue for visibility */
+  transition: color 0.2s;
 }
 
 .nav-links {
@@ -49,4 +50,13 @@ nav {
   font-size: 1.3rem;
   color: #b3e6ff;
   cursor: pointer;
+}
+/* Light mode adjustment */
+body.light-mode .nav-logo span {
+  color: #006fdd; /* Deeper blue for light backgrounds */
+}
+
+/* Dark mode adjustment */
+body.dark-mode .nav-logo span {
+  color: #00bfff; /* Lighter blue for dark backgrounds */
 }
