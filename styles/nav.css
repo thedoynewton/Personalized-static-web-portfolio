@@ -2,7 +2,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 2.5rem;
+  padding: 1rem 0.5rem 0 2.5rem;
   margin-bottom: 2rem;
   background: transparent;
 }
@@ -44,6 +44,7 @@ nav {
   display: flex;
   align-items: center;
   gap: 1.5rem;
+  padding-right: 1rem;
 }
 
 .nav-icon {
