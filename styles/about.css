@@ -119,11 +119,10 @@
 /* Main Content */
 .main-content {
   flex: 1;
-  padding: 3rem 4vw;
+  padding: 0.5em 0.5em 0 1.5em;
   background: transparent;
   display: flex;
   flex-direction: column;
-  gap: 2.5rem;
   height: 100%;
   align-self: stretch;
   justify-content: flex-start;
@@ -132,7 +131,6 @@
 .main-content h2 {
   font-size: 2rem;
   color: #fff;
-  margin-bottom: 1rem;
   font-weight: 700;
 }
 
@@ -140,13 +138,9 @@
   font-size: 1.15rem;
   color: #fff;
   line-height: 1.7;
-  margin-bottom: 0;
   text-align: justify;
 }
 
-.my-journey .experience {
-  margin-bottom: 1.5rem;
-}
 .my-journey .experience h3 {
   font-size: 1.1rem;
   color: #fff;
