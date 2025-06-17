@@ -36,19 +36,6 @@ body {
   align-items: flex-start;
 }
 
-@media (max-width: 900px) {
-  .resume-content {
-    flex-direction: column;
-    padding: 24px 8px;
-    gap: 24px;
-    width: 100vw;
-    min-width: unset;
-    min-height: unset;
-    height: auto;
-    max-width: 100vw;
-  }
-}
-
 /* Ensure right column sections are aligned */
 .resume-content > div:last-child {
   align-items: flex-start !important;
@@ -129,6 +116,104 @@ body {
   flex: 1;
   min-width: 325px;
   max-width: 300px;
+}
+.resume-header {
+  width: 100%;
+  background: #fff;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.resume-burger {
+  position: relative;
+  padding-right: 1em;
+  width: 36px;
+  height: 36px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.resume-burger span {
+  display: block;
+  width: 24px;
+  height: 3px;
+  background: #222;
+  margin: 3px 0;
+  border-radius: 2px;
+  transition: all 0.3s;
+}
+
+.resume-burger-menu {
+  display: none;
+  position: absolute;
+  top: 40px;
+  right: 0;
+  background: #fff;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+  border-radius: 6px;
+  min-width: 140px;
+  flex-direction: column;
+  padding: 8px 0;
+  z-index: 200;
+}
+
+.resume-burger-menu.open {
+  display: flex;
+}
+
+.resume-btn {
+  display: block;
+  padding: 10px 20px;
+  color: #222;
+  text-decoration: none;
+  font-weight: 500;
+  transition: background 0.2s;
+}
+
+.resume-btn:hover {
+  background: #f0f0f0;
+}
+
+@media (max-width: 600px) {
+  .resume-burger {
+    width: 32px;
+    height: 32px;
+  }
+  .resume-burger span {
+    width: 20px;
+    height: 2.5px;
+  }
+  .resume-burger-menu {
+    min-width: 110px;
+    top: 36px;
+    right: 0;
+    padding: 4px 0;
+  }
+  .resume-btn {
+    padding: 8px 14px;
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 900px) {
+  .resume-content {
+    flex-direction: column;
+    padding: 24px 8px;
+    gap: 24px;
+    width: 100vw;
+    min-width: unset;
+    min-height: unset;
+    height: auto;
+    max-width: 100vw;
+  }
 }
 
 @media print {
