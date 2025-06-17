@@ -1,0 +1,220 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.resume-main-a4 {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  min-height: 100vh;
+  background: #f7f9fa;
+}
+
+.resume-center-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  width: 100%;
+}
+
+.resume-content {
+  background: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 40px 32px;
+  max-width: 210mm;
+  width: 210mm;
+  min-height: 297mm;
+  height: 297mm;
+  display: flex;
+  flex-direction: row;
+  gap: 4em;
+  position: static;
+  margin: 0 auto;
+  align-items: flex-start;
+}
+
+@media (max-width: 900px) {
+  .resume-content {
+    flex-direction: column;
+    padding: 24px 8px;
+    gap: 24px;
+    width: 100vw;
+    min-width: unset;
+    min-height: unset;
+    height: auto;
+    max-width: 100vw;
+  }
+}
+
+/* Ensure right column sections are aligned */
+.resume-content > div:last-child {
+  align-items: flex-start !important;
+}
+.resume-content > div:last-child .resume-section-title {
+  text-align: left;
+  margin-left: 0;
+  width: 100%;
+}
+.resume-content > div:last-child .resume-section {
+  width: 100%;
+  margin-left: 0;
+}
+.resume-content > div:last-child img.resume-profile-img {
+  align-self: flex-end;
+  margin-left: auto;
+  margin-right: 0;
+}
+
+.resume-summary {
+  text-align: justify;
+  margin-bottom: 1.5em;
+}
+.resume-section-title {
+  color: #2a4cff;
+  font-size: 1.1em;
+  letter-spacing: 1.5px;
+  font-weight: 700;
+  text-align: left;
+  width: 100%;
+  box-sizing: border-box;
+}
+.resume-section {
+  margin-bottom: 1.2em;
+}
+.resume-info {
+  margin-bottom: 5em;
+}
+.resume-info h1 {
+  font-size: 2.2rem;
+  font-weight: 900;
+  letter-spacing: 2px;
+  margin: 0 0 0.3em 0;
+  white-space: nowrap;
+  color: #222;
+}
+.resume-info span {
+  display: flex;
+  align-items: center;
+  font-size: 1.05em;
+  color: #444;
+  gap: 0.5em;
+  margin-bottom: 0.2em;
+}
+.resume-info span svg,
+.resume-info span .icon {
+  font-size: 1.2em;
+  color: #4f8cff;
+  margin-right: 0.3em;
+}
+.resume-profile-img {
+  width: 2in;
+  height: 2in;
+  object-fit: cover;
+  object-position: 50% 5%; /* Adjust vertical position to show more of your face */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  display: block;
+  margin-bottom: 1em;
+}
+.resume-skills ul {
+  margin: 0.5em 0 0 1em;
+  padding-left: 1em;
+}
+.resume-skills li {
+  margin-bottom: 0.2em;
+}
+.resume-left {
+  flex: 1;
+  min-width: 325px;
+  max-width: 300px;
+}
+
+@media print {
+  @page {
+    size: A4;
+    margin: 0;
+  }
+  html,
+  body {
+    width: 210mm;
+    height: 297mm;
+    margin: 0 !important;
+    padding: 0 !important;
+    background: #fff !important;
+    overflow: hidden !important;
+  }
+  .resume-header,
+  .resume-burger,
+  .resume-burger-menu {
+    display: none !important;
+  }
+  .resume-main-a4 {
+    margin: 0 !important;
+    padding: 0 !important;
+    background: #fff !important;
+    min-height: unset !important;
+    height: 297mm !important;
+    align-items: stretch !important;
+    justify-content: flex-start !important;
+  }
+  .resume-center-container {
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 210mm !important;
+    height: 297mm !important;
+    align-items: flex-start !important;
+    justify-content: center !important;
+  }
+  .resume-content 
+    {
+        width: 210mm !important;
+        height: 297mm !important;
+        padding: 40px 32px !important;
+        flex-direction: row !important;
+        gap: 3em !important;
+        position: static !important;
+        margin: 0 auto !important;
+        align-items: flex-start !important;
+    }
+  .resume-left,
+  .resume-content > div {
+    height: auto !important;
+  }
+  .resume-profile-img {
+    width: 2in !important;
+    height: 2in !important;
+    object-fit: cover !important;
+    object-position: top center !important;
+    display: block !important;
+  }
+  .resume-section,
+  .resume-skills {
+    page-break-inside: avoid;
+  }
+  .resume-section-title {
+    color: #2a4cff !important;
+    font-size: 1.1em !important;
+    letter-spacing: 1.5px !important;
+  }
+  .resume-skills {
+    gap: 18px !important;
+  }
+  .resume-skills ul {
+    margin: 0.5em 0 0 1em !important;
+  }
+  a {
+    color: #222 !important;
+    text-decoration: underline !important;
+  }
+  * {
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+  .resume-left {
+    flex: 1 !important;
+    min-width: 280px !important;
+    max-width: 280px !important;
+  }
+}

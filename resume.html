@@ -1,47 +1,160 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>My Resume</title>
-  <link rel="stylesheet" href="styles.css">
-  <link rel="stylesheet" href="print.css" media="print">
-</head>
-<body>
-  <nav>
-    <a href="index.html">Home</a> |
-    <a href="resume.html">Resume</a>
-  </nav>
-  <section id="resume">
-    <h1>[Your Name]</h1>
-    <p>Email: your.email@example.com | Phone: (123) 456-7890</p>
-    <h2>Summary</h2>
-    <p>Brief summary about your professional background and skills.</p>
-    <h2>Experience</h2>
-    <ul>
-      <li>
-        <strong>Job Title</strong> at Company Name (Year - Year)
-        <br>
-        Description of your responsibilities and achievements.
-      </li>
-      <li>
-        <strong>Job Title</strong> at Company Name (Year - Year)
-        <br>
-        Description of your responsibilities and achievements.
-      </li>
-    </ul>
-    <h2>Education</h2>
-    <ul>
-      <li>
-        <strong>Degree</strong>, School Name (Year)
-      </li>
-    </ul>
-    <h2>Skills</h2>
-    <ul>
-      <li>Skill 1</li>
-      <li>Skill 2</li>
-      <li>Skill 3</li>
-    </ul>
-  </section>
-  <button onclick="window.print()">Print Resume</button>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=210mm, initial-scale=1.0" />
+    <title>Diosdado Isaac T. Ramos - Resume</title>
+    <link rel="stylesheet" href="styles/resume.css" />
+  </head>
+  <body>
+    <div class="resume-header">
+      <div class="resume-burger" aria-label="Open actions menu">
+        <span></span>
+        <span></span>
+        <span></span>
+        <div class="resume-burger-menu">
+          <a href="index.html" class="resume-btn">Return Home</a>
+          <a href="resume.pdf" class="resume-btn" download>Download CV</a>
+        </div>
+      </div>
+    </div>
+    <main class="resume-main-a4">
+      <div class="resume-center-container">
+        <div class="resume-content">
+          <div class="resume-left">
+            <div class="resume-info">
+              <h1>DIOSDADO ISAAC T. RAMOS</h1>
+              <span>📞 0994-227-6578</span>
+              <span>✉️ diosdado.isaac.ramos@gmail.com</span>
+              <span style="white-space: nowrap"
+                >📍 Purok 3 Toril, Bucaran Island Garden City of Samal</span
+              >
+            </div>
+            <section class="resume-summary" style="text-align: justify">
+              <h2 class="resume-section-title">Professional Summary</h2>
+              <p>
+                I am web developer, highly motivated and quick-learning
+                individual eager to contribute to the development of modern web
+                solutions.
+                <br /><br />
+                Proficient in building contemporary designs and collaborating
+                effectively to create impactful computing solutions, including
+                systems for inventory management, broadcasting SMS systems,
+                e-commerce, and marketplace platforms. Experienced in database
+                management using SQL Server, Supabase, and MySQL.
+              </p>
+            </section>
+            <section class="resume-section">
+              <h2 class="resume-section-title">Education</h2>
+              <div>
+                <strong>2021–2025</strong><br />
+                <span style="font-weight: 600"
+                  >UNIVERSITY OF SOUTHEASTERN PHILIPPINES</span
+                ><br />
+                Bachelor of Science in Information Technology<br />
+                Major in Business Technology Management<br />
+                Cum Laude<br />
+                <span style="font-size: 0.95em">Graduated: June 2025</span>
+              </div>
+              <div style="margin-top: 0.5em">
+                <strong
+                  >2018–2021<br />
+                  NIEVES VILLARICA TVL SENIOR HIGH SCHOOL</strong
+                ><br />
+                Information and Communication Technology (ICT)
+              </div>
+            </section>
+            <section class="resume-section">
+              <h2 class="resume-section-title">Skills</h2>
+              <ul>
+                <li>
+                  Tech-Savvy, Adaptable, Always curious, Always willing to
+                  learn, Problem-based learning,
+                </li>
+                <li>HTML5, CSS3, JavaScript, React, Next.js, Tailwind CSS</li>
+                <li>Node.js, PHP, Laravel</li>
+                <li>MSSQL, Supabase, MySQL</li>
+                <li>Git, GitHub, Figma</li>
+              </ul>
+            </section>
+          </div>
+          <div>
+            <img
+              src="images/profile.jpg"
+              alt="Profile Photo"
+              class="resume-profile-img"
+            />
+            <section class="resume-section">
+              <h2 class="resume-section-title">Experience</h2>
+              <div>
+                <strong>STUDENT INTERN DEVELOPER</strong><br />
+                Systems Development and Management Data Office | USeP<br />
+                Laravel 11, SQL Server, Tailwind<br />
+                June – December 2025
+                <ul style="margin-top: 0.5em">
+                  <li>
+                    Developed a campus-wide
+                    <strong>SMS Broadcasting System</strong>.
+                  </li>
+                </ul>
+              </div>
+            </section>
+            <section class="resume-section">
+              <h2 class="resume-section-title">Projects</h2>
+              <ul>
+                <li>
+                  <strong>SMS Broadcasting System:</strong> Developed a
+                  campus-wide SMS notification system using Laravel and SQL
+                  Server for mass communication.
+                </li>
+                <li>
+                  <strong>Web3 Rental Marketplace:</strong> Built a
+                  decentralized rental platform with smart contract integration
+                  and secure payments using NextJS and Solidity.
+                </li>
+                <li>
+                  <strong>Portfolio Website:</strong> Built a personal portfolio
+                  using HTML, CSS and JavaScript to showcase projects and
+                  skills.
+                </li>
+                <li>
+                  <strong>Laravel Chirp Clone:</strong> Created a microblogging
+                  platform inspired by Chirp, utilizing Laravel for
+                  authentication, posting, and real-time updates.
+                </li>
+              </ul>
+            </section>
+            <section class="resume-section">
+              <h2 class="resume-section-title">Certifications</h2>
+              <ul>
+                <li>Certified Web Developer – freeCodeCamp</li>
+                <li>Responsive Web Design – freeCodeCamp</li>
+                <li>SQL for Data Science – Coursera</li>
+              </ul>
+            </section>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script>
+      // Burger menu toggle
+      const burger = document.querySelector(".resume-burger");
+      const menu = document.querySelector(".resume-burger-menu");
+      if (burger && menu) {
+        burger.addEventListener("click", function (e) {
+          menu.classList.toggle("open");
+          e.stopPropagation();
+        });
+        document.addEventListener("click", function () {
+          menu.classList.remove("open");
+        });
+        burger.addEventListener("keydown", function (e) {
+          if (e.key === "Enter" || e.key === " ") {
+            menu.classList.toggle("open");
+            e.preventDefault();
+          }
+        });
+      }
+    </script>
+  </body>
 </html>
