@@ -1,0 +1,43 @@
+/* Portfolio SPA - Reusable Styles */
+
+@import url("main.css");
+@import url("theme.css");
+@import url("nav.css");
+@import url("button.css");
+@import url("header.css");
+@import url("section.css");
+@import url("footer.css");
+
+/* Add any new reusable utility classes below */
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.mt-2 {
+  margin-top: 2rem;
+}
+
+.mb-2 {
+  margin-bottom: 2rem;
+}
+
+.p-2 {
+  padding: 2rem;
+}
+
+.rounded {
+  border-radius: 8px;
+}
+
+.shadow {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+/* Do NOT apply flex, width, or layout utilities to .sidebar or .about-container here to avoid layout conflicts. */

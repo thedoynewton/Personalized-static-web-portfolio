@@ -1,47 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Ramz - Diosdado Ramos</title>
-  <link rel="stylesheet" href="styles/main.css">
-  <link rel="stylesheet" href="styles/theme.css">
-  <link rel="stylesheet" href="styles/nav.css">
-  <link rel="stylesheet" href="styles/button.css">
-  <link rel="stylesheet" href="styles/header.css">
-  <link rel="stylesheet" href="styles/section.css">
-  <link rel="stylesheet" href="styles/footer.css">
-</head>
-<body>
-  <nav>
-  <div class="nav-logo">💻<span>Ramz</span></div>
-  <div class="nav-links">
-    <a href="index.html">Home</a>
-    <a href="about.html">About</a>
-    <a href="project.html">Projects</a>
-    <a href="techStack.html">Tech Stack</a>
-    <a href="blog.html">Blog</a>
-  </div>
-  <div class="nav-actions">
-    <span class="nav-icon">🌗</span>
-    <a href="https://mail.google.com/mail/?view=cm&to=diosdado.isaac.ramos@gmail.com" target="_blank" class="message-btn">Send a Message</a>
-  </div>
-</nav>
-<main>
-    <section class="quote-section">
-      <blockquote>
-        “To get something you never had, you have to do something you never did.”
-      </blockquote>
-    </section>
-     <div class="quote-actions">
-      <a href="project.html" class="action-btn">Projects</a>
-      <a href="resume.html" class="action-btn outline">Download my Resume</a>
-    </div>
-  </main>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Ramz - Diosdado Ramos</title>
+    <link rel="stylesheet" href="styles/reusable.css" />
+    <link rel="stylesheet" href="styles/about.css" />
+    <link rel="stylesheet" href="styles/projects.css" />
+    <link rel="stylesheet" href="styles/techstack.css" />
+    <link rel="stylesheet" href="styles/blog.css" />
+    <link rel="stylesheet" href="styles/print.css" media="print" />
+  </head>
+  <body>
+    <nav>
+      <div class="nav-logo">💻<span>Ramz</span></div>
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="project.html">Projects</a>
+        <a href="techStack.html">Tech Stack</a>
+        <a href="blog.html">Blog</a>
+      </div>
+      <div class="nav-actions">
+        <span class="nav-icon">🌗</span>
+        <a
+          href="https://mail.google.com/mail/?view=cm&to=diosdado.isaac.ramos@gmail.com"
+          target="_blank"
+          class="message-btn"
+          >Send a Message</a
+        >
+      </div>
+    </nav>
+    <main>
+      <section class="quote-section">
+        <blockquote>
+          “To get something you never had, you have to do something you never
+          did.”
+        </blockquote>
+      </section>
+      <div class="quote-actions">
+        <a href="project.html" class="action-btn">Projects</a>
+        <a href="resume.html" class="action-btn outline">Download my Resume</a>
+      </div>
+    </main>
     <footer class="site-footer">
-    <div>
-      &copy; 2025 ramz. All rights reserved.
-    </div>
-  </footer>
-  <script src="components/theme-toggle.js"></script>
-</body>
+      <div>&copy; 2025 ramz. All rights reserved.</div>
+    </footer>
+    <script src="components/theme-toggle.js"></script>
+    <script src="components/spa-router.js"></script>
+  </body>
 </html>
