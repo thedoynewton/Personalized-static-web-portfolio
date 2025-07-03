@@ -1,220 +1,235 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Tech Stack</title>
-    <link rel="stylesheet" href="styles/theme.css">
-    <link rel="stylesheet" href="styles/main.css" />
-    <link rel="stylesheet" href="styles/nav.css" />
-    <link rel="stylesheet" href="styles/techstack.css" />
-    <link rel="stylesheet" href="styles/button.css" />
-    <link rel="stylesheet" href="styles/footer.css" />
-  </head>
-  <body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ramz- Web Portfolio</title>
+  <link rel="stylesheet" href="styles/header.css" />
+  <link rel="stylesheet" href="styles/global.css" />
+  <link rel="stylesheet" href="styles/techStack.css" />
+  <link rel="stylesheet" href="styles/footer.css" />
+</head>
+
+<body>
+  <header>
+    <img src="assets/logo.jpg" alt="Site Logo" />
+
     <nav>
-      <div class="nav-logo">💻<span>Ramz</span></div>
-      <div class="nav-links">
-        <a href="index.html">Home</a>
-        <a href="about.html">About</a>
-        <a href="project.html">Projects</a>
-        <a href="techStack.html">Tech Stack</a>
-        <a href="blog.html">Blog</a>
-      </div>
-      <div class="nav-actions">
-        <span class="nav-icon">🌗</span>
-        <a
-          href="https://mail.google.com/mail/?view=cm&to=diosdado.isaac.ramos@gmail.com"
-          target="_blank"
-          class="message-btn"
-          >Send a Message</a
-        >
-      </div>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="techStack.html">Tech Stack</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
     </nav>
-    <main class="techstack-main">
-      <h1>My Tech Stack</h1>
-      <div class="stack-category">
-        <h2>Frontend</h2>
-        <div class="stack-grid">
-          <!-- Basic -->
-          <div class="stack-card">
-            <img
-              src="images/tailwindcss.svg"
-              alt="Tailwind CSS"
-              class="stack-icon"
-            />
-            <span>Tailwind CSS</span>
-            <div class="stack-progress">
-              <div class="progress-bar basic" style="width: 30%"></div>
-            </div>
-            <span class="stack-level basic">Basic</span>
+  </header>
+
+  <main>
+
+    <h2>Frontend</h2>
+    <section>
+
+      <div class="card">
+        <img src="assets/react.svg" alt="image">
+        <div>
+          <h4>React JS</h4>
+          <div class="stack-progress">
+            <div class="progress-bar basic" style="width: 30%"></div>
           </div>
-          <!-- Intermediate -->
-          <div class="stack-card">
-            <img src="images/react.svg" alt="React" class="stack-icon" />
-            <span>React</span>
-            <div class="stack-progress">
-              <div class="progress-bar intermediate" style="width: 50%"></div>
-            </div>
-            <span class="stack-level intermediate">Intermediate</span>
-          </div>
-          <div class="stack-card">
-            <img src="images/nextjs.svg" alt="Next.js" class="stack-icon" />
-            <span>Next.js</span>
-            <div class="stack-progress">
-              <div class="progress-bar intermediate" style="width: 50%"></div>
-            </div>
-            <span class="stack-level intermediate">Intermediate</span>
-          </div>
-          <!-- Advanced -->
-          <div class="stack-card">
-            <img src="images/css3.svg" alt="CSS3" class="stack-icon" />
-            <span>CSS3</span>
-            <div class="stack-progress">
-              <div class="progress-bar advanced" style="width: 80%"></div>
-            </div>
-            <span class="stack-level advanced">Advanced</span>
-          </div>
-          <div class="stack-card">
-            <img src="images/html5.svg" alt="HTML5" class="stack-icon" />
-            <span>HTML5</span>
-            <div class="stack-progress">
-              <div class="progress-bar advanced" style="width: 80%"></div>
-            </div>
-            <span class="stack-level advanced">Advanced</span>
-          </div>
+          <h4 class="level-badge basic">Basic</h4>
         </div>
       </div>
-      <div class="stack-category">
-        <h2>Backend</h2>
-        <div class="stack-grid">
-          <!-- Basic -->
-          <div class="stack-card">
-            <img src="images/nodejs.svg" alt="Node.js" class="stack-icon" />
-            <span>Node.js</span>
-            <div class="stack-progress">
-              <div class="progress-bar basic" style="width: 30%"></div>
-            </div>
-            <span class="stack-level basic">Basic</span>
+      <div class="card">
+        <img src="assets/nextjs.svg" alt="image">
+        <div>
+          <h4>Next JS</h4>
+          <div class="stack-progress">
+            <div class="progress-bar basic" style="width: 30%"></div>
           </div>
-          <div class="stack-card">
-            <img src="images/solidity.svg" alt="Solidity" class="stack-icon" />
-            <span>Solidity</span>
-            <div class="stack-progress">
-              <div class="progress-bar basic" style="width: 30%"></div>
-            </div>
-            <span class="stack-level basic">Basic</span>
-          </div>
-          <div class="stack-card">
-            <img src="images/hardhat.svg" alt="Hardhat" class="stack-icon" />
-            <span>Hardhat</span>
-            <div class="stack-progress">
-              <div class="progress-bar basic" style="width: 30%"></div>
-            </div>
-            <span class="stack-level basic">Basic</span>
-          </div>
-          <!-- Intermediate -->
-          <div class="stack-card">
-            <img src="images/php.svg" alt="PHP" class="stack-icon" />
-            <span>PHP</span>
-            <div class="stack-progress">
-              <div class="progress-bar intermediate" style="width: 50%"></div>
-            </div>
-            <span class="stack-level intermediate">Intermediate</span>
-          </div>
-          <div class="stack-card">
-            <img src="images/laravel.png" alt="Laravel" class="stack-icon" />
-            <span>Laravel</span>
-            <div class="stack-progress">
-              <div class="progress-bar intermediate" style="width: 50%"></div>
-            </div>
-            <span class="stack-level intermediate">Intermediate</span>
-          </div>
-          <!-- Advance -->
-          <div class="stack-card">
-            <img src="images/js.svg" alt="JavaScript" class="stack-icon" />
-            <span>JavaScript</span>
-            <div class="stack-progress">
-              <div class="progress-bar advanced" style="width: 80%"></div>
-            </div>
-            <span class="stack-level advanced">Advanced</span>
-          </div>
+          <h4 class="level-badge basic">Basic</h4>
         </div>
       </div>
-      <div class="stack-category">
-        <h2>Database</h2>
-        <div class="stack-grid">
-          <!-- Intermediate -->
-          <div class="stack-card">
-            <img src="images/mysql.svg" alt="MySQL" class="stack-icon" />
-            <span>MySQL</span>
-            <div class="stack-progress">
-              <div class="progress-bar intermediate" style="width: 50%"></div>
-            </div>
-            <span class="stack-level intermediate">Intermediate</span>
+      <div class="card">
+        <img src="assets/tailwindcss.svg" alt="image">
+        <div>
+          <h4>Tailwind CSS</h4>
+          <div class="stack-progress">
+            <div class="progress-bar intermediate" style="width: 50%"></div>
           </div>
-          <div class="stack-card">
-            <img src="images/supabase.svg" alt="Supabase" class="stack-icon" />
-            <span>Supabase</span>
-            <div class="stack-progress">
-              <div class="progress-bar intermediate" style="width: 50%"></div>
-            </div>
-            <span class="stack-level intermediate">Intermediate</span>
-          </div>
-          <div class="stack-card">
-            <img
-              src="images/sqlserver.svg"
-              alt="SQL Server"
-              class="stack-icon"
-            />
-            <span>MSSQL</span>
-            <div class="stack-progress">
-              <div class="progress-bar intermediate" style="width: 50%"></div>
-            </div>
-            <span class="stack-level intermediate">Intermediate</span>
-          </div>
+          <h4 class="level-badge intermediate">Intermediate</h4>
         </div>
       </div>
-      <div class="stack-category">
-        <h2>Version Control</h2>
-        <!-- Intermediate -->
-        <div class="stack-grid">
-          <div class="stack-card">
-            <img src="images/github.svg" alt="GitHub" class="stack-icon" />
-            <span>GitHub</span>
-            <div class="stack-progress">
-              <div class="progress-bar intermediate" style="width: 50%"></div>
-            </div>
-            <span class="stack-level intermediate">Intermediate</span>
+      <div class="card">
+        <img src="assets/css3.svg" alt="image">
+        <div>
+          <h4>CSS</h4>
+          <div class="stack-progress">
+            <div class="progress-bar intermediate" style="width: 50%"></div>
           </div>
-          <div class="stack-card">
-            <img src="images/git.svg" alt="Git" class="stack-icon" />
-            <span>Git</span>
-            <div class="stack-progress">
-              <div class="progress-bar intermediate" style="width: 50%"></div>
-            </div>
-            <span class="stack-level intermediate">Intermediate</span>
-          </div>
+          <h4 class="level-badge intermediate">Intermediate</h4>
         </div>
       </div>
-      <div class="stack-category">
-        <h2>UI/UX Designs</h2>
-        <!-- Basic -->
-        <div class="stack-grid">
-          <div class="stack-card">
-            <img src="images/figma.svg" alt="Figma" class="stack-icon" />
-            <span>Figma</span>
-            <div class="stack-progress">
-              <div class="progress-bar basic" style="width: 30%"></div>
-            </div>
-            <span class="stack-level basic">Basic</span>
+
+    </section>
+
+    <h2>Backend</h2>
+    <section>
+
+      <div class="card">
+        <img src="assets/solidity.svg" alt="image">
+        <div>
+          <h4>Solidity</h4>
+          <div class="stack-progress">
+            <div class="progress-bar basic" style="width: 30%"></div>
           </div>
+          <h4 class="level-badge basic">Basic</h4>
         </div>
       </div>
-    </main>
-    <footer class="site-footer">
-      <div>&copy; 2025 ramz. All rights reserved.</div>
-    </footer>
-    <script src="components/theme-toggle.js"></script>
-  </body>
+      <div class="card">
+        <img src="assets/hardhat.svg" alt="image">
+        <div>
+          <h4>Hardhat</h4>
+          <div class="stack-progress">
+            <div class="progress-bar basic" style="width: 30%"></div>
+          </div>
+          <h4 class="level-badge basic">Basic</h4>
+        </div>
+      </div>
+      <div class="card">
+        <img src="assets/php.svg" alt="image">
+        <div>
+          <h4>PHP</h4>
+          <div class="stack-progress">
+            <div class="progress-bar intermediate" style="width: 50%"></div>
+          </div>
+          <h4 class="level-badge intermediate">Intermediate</h4>
+        </div>
+      </div>
+      <div class="card">
+        <img src="assets/laravel.png" alt="image">
+        <div>
+          <h4>Laravel</h4>
+          <div class="stack-progress">
+            <div class="progress-bar intermediate" style="width: 50%"></div>
+          </div>
+          <h4 class="level-badge intermediate">Intermediate</h4>
+        </div>
+      </div>
+      <div class="card">
+        <img src="assets/js.svg" alt="image">
+        <div>
+          <h4>Javascript</h4>
+          <div class="stack-progress">
+            <div class="progress-bar intermediate" style="width: 50%"></div>
+          </div>
+          <h4 class="level-badge intermediate">Intermediate</h4>
+        </div>
+      </div>
+
+    </section>
+
+    <h2>Database</h2>
+    <section>
+
+      <div class="card">
+        <img src="assets/mysql.svg" alt="image">
+        <div>
+          <h4>MySQL</h4>
+          <div class="stack-progress">
+            <div class="progress-bar intermediate" style="width: 30%"></div>
+          </div>
+          <h4 class="level-badge intermediate">Intermediate</h4>
+        </div>
+      </div>
+      <div class="card">
+        <img src="assets/supabase.svg" alt="image">
+        <div>
+          <h4>Supabase</h4>
+          <div class="stack-progress">
+            <div class="progress-bar intermediate" style="width: 30%"></div>
+          </div>
+          <h4 class="level-badge intermediate">Intermediate</h4>
+        </div>
+      </div>
+      <div class="card">
+        <img src="assets/sqlserver.svg" alt="image">
+        <div>
+          <h4>MSSQL</h4>
+          <div class="stack-progress">
+            <div class="progress-bar intermediate" style="width: 50%"></div>
+          </div>
+          <h4 class="level-badge intermediate">Intermediate</h4>
+        </div>
+      </div>      
+
+    </section>
+
+    <h2>Web Builders</h2>
+    <section>
+
+      <div class="card">
+        <img src="assets/wordpress.svg" alt="image">
+        <div>
+          <h4>Wordpress</h4>
+          <div class="stack-progress">
+            <div class="progress-bar basic" style="width: 30%"></div>
+          </div>
+          <h4 class="level-badge basic">Basic</h4>
+        </div>
+      </div>
+
+    </section>
+
+    <h2>Version Control</h2>
+    <section>
+
+      <div class="card">
+        <img src="assets/git.svg" alt="image">
+        <div>
+          <h4>Git</h4>
+          <div class="stack-progress">
+            <div class="progress-bar basic" style="width: 30%"></div>
+          </div>
+          <h4 class="level-badge basic">Basic</h4>
+        </div>
+      </div>     
+      <div class="card">
+        <img src="assets/github.svg" alt="image">
+        <div>
+          <h4>Github</h4>
+          <div class="stack-progress">
+            <div class="progress-bar intermediate" style="width: 30%"></div>
+          </div>
+          <h4 class="level-badge intermediate">Intermediate</h4>
+        </div>
+      </div>
+
+    </section>
+
+    <h2>UI/UX Designs</h2>
+    <section>
+
+      <div class="card">
+        <img src="assets/figma.svg" alt="image">
+        <div>
+          <h4>Figma</h4>
+          <div class="stack-progress">
+            <div class="progress-bar basic" style="width: 30%"></div>
+          </div>
+          <h4 class="level-badge basic">Basic</h4>
+        </div>
+      </div>
+
+    </section>
+
+  </main>
+
+  <footer>
+    <p>© 2025 ramz. All rights reserved.</p>
+  </footer>
+</body>
+
 </html>

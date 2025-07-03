@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+body, button, input, textarea, select, a, h1, h2, h3, h4, h5, h6 {
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    background-color: black;
+}
+span, p, h1, h2, h3, h4, h5, h6 {
+    color: white;
+}

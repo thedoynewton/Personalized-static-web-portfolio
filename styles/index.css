@@ -1,0 +1,23 @@
+.quote-block {
+    border-left: 4px solid #0050ff;
+    font-style: italic;
+    font-size: 3rem;
+    text-align: center;
+}
+
+button {
+    background-color: #0050ff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    display: block;
+    margin: 20px auto 0 auto;
+}
+
+main {
+    margin-top: 7rem;
+}

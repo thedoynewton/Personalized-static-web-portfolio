@@ -1,14 +1,15 @@
-.site-footer {
-  width: 100%;
-  text-align: center;
-  color: #b3e6ff;
-  background: transparent;
-  font-size: 1.1rem;
-  letter-spacing: 0.02em;
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
-.site-footer div {
-  display: inline-block;
-  border-radius: 8px;
-  padding: 0.5rem 1.5rem;
+main {
+    flex: 1;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    width: 100%;
 }

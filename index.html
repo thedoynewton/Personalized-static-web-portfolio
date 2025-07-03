@@ -2,49 +2,44 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>Ramz - Diosdado Ramos</title>
-    <link rel="stylesheet" href="styles/reusable.css" />
-    <link rel="stylesheet" href="styles/about.css" />
-    <link rel="stylesheet" href="styles/projects.css" />
-    <link rel="stylesheet" href="styles/techstack.css" />
-    <link rel="stylesheet" href="styles/blog.css" />
-    <link rel="stylesheet" href="styles/print.css" media="print" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ramz- Web Portfolio</title>
+    <link rel="stylesheet" href="styles/header.css" />
+    <link rel="stylesheet" href="styles/global.css" />
+    <link rel="stylesheet" href="styles/index.css" />
+    <link rel="stylesheet" href="styles/footer.css" />
   </head>
   <body>
-    <nav>
-      <div class="nav-logo">💻<span>Ramz</span></div>
-      <div class="nav-links">
-        <a href="index.html">Home</a>
-        <a href="about.html">About</a>
-        <a href="project.html">Projects</a>
-        <a href="techStack.html">Tech Stack</a>
-        <a href="blog.html">Blog</a>
-      </div>
-      <div class="nav-actions">
-        <span class="nav-icon">🌗</span>
-        <a
-          href="https://mail.google.com/mail/?view=cm&to=diosdado.isaac.ramos@gmail.com"
-          target="_blank"
-          class="message-btn"
-          >Send a Message</a
-        >
-      </div>
-    </nav>
+    <header>
+      <img src="assets/logo.jpg" alt="Site Logo" />
+
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="techStack.html">Tech Stack</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
     <main>
-      <section class="quote-section">
-        <blockquote>
-          “To get something you never had, you have to do something you never
-          did.”
+      <section>
+        <blockquote class="quote-block">
+          <p>
+            “To get something you never had, you have to do something you never
+            did.”
+          </p>
         </blockquote>
+
+        <button>View my Resume</button>
       </section>
-      <div class="quote-actions">
-        <a href="resume.html" class="action-btn outline">View my Resume</a>
-      </div>
     </main>
-    <footer class="site-footer">
-      <div>&copy; 2025 ramz. All rights reserved.</div>
+
+    <footer>
+      <p>© 2025 ramz. All rights reserved.</p>
     </footer>
-    <script src="components/theme-toggle.js"></script>
-    <script src="components/spa-router.js"></script>
   </body>
 </html>
