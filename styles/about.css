@@ -133,7 +133,132 @@ h4 {
   border-radius: 50px;
 }
 
-/* Mobile responsive design for 320px devices */
+/* Tablet responsive design */
+@media (max-width: 769px) { 
+  main {
+    margin: 0 1.5rem;
+  }
+
+  .profile img {
+    width: 180px;
+    height: 180px;
+    border-width: 4px;
+  }
+
+  .profile h1 {
+    font-size: 2rem;
+  }
+
+  .sec-profile {
+    margin-top: 3rem;
+    padding: 0 1rem;
+  }
+
+  .soft-skills button {
+    padding: 0.45rem 0.9rem;
+    font-size: 0.95rem;
+    margin: 0.15rem;
+    display: inline-block;
+  }
+
+  /* About Me Section */
+  .about-me {
+    flex-direction: column;
+    margin-top: 3rem;
+    text-align: center;
+    align-items: center;
+  }
+
+  .about-me img {
+    width: 180px;
+    height: 220px;
+    margin: 0 auto 1rem auto;
+  }
+
+  .about-content {
+    margin-left: 0;
+    padding: 0 1rem;
+  }
+
+  .about-content p {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+
+  .icons {
+    display: flex;
+    justify-content: center;
+    gap: 0.7rem;
+    margin-top: 1rem;
+    flex-wrap: wrap;
+  }
+
+  .icons img {
+    width: 45px;
+    height: 45px;
+    padding: 4px;
+  }
+
+  /* Experience Section */
+  .section-title h1 {
+    font-size: 1.7rem;
+    margin: 1rem 0;
+  }
+
+  .experience {
+    flex-direction: column;
+    margin-top: 2.5rem;
+    text-align: center;
+    align-items: center;
+  }
+
+  .experience-img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    margin: 0 auto 1rem auto;
+  }
+
+  .experience-content {
+    padding: 0 1rem;
+  }
+
+  .experience-content h2 {
+    font-size: 1.5rem;
+  }
+
+  .experience-content h4 {
+    font-size: 1.1rem;
+  }
+
+  .experience-content h5 {
+    font-size: 1rem;
+  }
+
+  .experience-content p {
+    margin-top: 1.2rem;
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+
+  /* Tech Stack */
+  .tech-stack {
+    display: flex;
+    justify-content: center;
+    gap: 0.7rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    flex-wrap: wrap;
+  }
+
+  .tech-stack img {
+    width: 45px;
+    height: 45px;
+    padding: 4px;
+  }
+}
+
+/* Mobile responsive design */
 @media (max-width: 426px) {
   main {
     margin: 0 1rem;

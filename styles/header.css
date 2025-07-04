@@ -69,7 +69,81 @@ nav ul li a.active {
   border-radius: 2px;
 }
 
-/* Mobile responsive design for 320px devices */
+/* Tablet responsive design */
+@media (max-width: 768px) {
+  header {
+    justify-content: space-between;
+    padding: 0;
+    position: relative;
+  }
+
+  header img {
+    margin-left: 1rem;
+    width: 40px;
+    height: 40px;
+  }
+
+  .burger-menu {
+    display: flex;
+    margin-right: 1rem;
+  }
+
+  nav {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.95);
+    transform: translateY(-100%);
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease;
+    z-index: 1000;
+  }
+
+  nav.active {
+    transform: translateY(0);
+    opacity: 1;
+    visibility: visible;
+  }
+
+  nav ul {
+    flex-direction: column;
+    gap: 0;
+    padding: 1rem 0;
+  }
+
+  nav ul li {
+    width: 100%;
+    text-align: center;
+  }
+
+  nav ul li a {
+    display: block;
+    padding: 15px 20px;
+    font-size: 0.95rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  }
+
+  nav ul li:last-child a {
+    border-bottom: none;
+  }
+
+  /* Burger animation when active */
+  .burger-menu.active span:nth-child(1) {
+    transform: rotate(-45deg) translate(-5px, 6px);
+  }
+
+  .burger-menu.active span:nth-child(2) {
+    opacity: 0;
+  }
+
+  .burger-menu.active span:nth-child(3) {
+    transform: rotate(45deg) translate(-5px, -6px);
+  }
+}
+
+/* Mobile responsive design */
 @media (max-width: 426px) {
   header {
     justify-content: space-between;
