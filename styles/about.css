@@ -66,6 +66,10 @@ main {
   border-radius: 50px;
 }
 
+.icons a {
+  text-decoration: none;
+}
+
 /* 3rd section */
 
 .section-title {
