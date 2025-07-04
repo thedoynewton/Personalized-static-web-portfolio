@@ -80,31 +80,15 @@ h4 {
     display: inline-block;
 }
 
-.level-badge.basic,.progress-bar.basic {
+.level-badge.basic, .progress-bar.basic {
   color: #ff9800;
-}
-body.light-mode .level-badge.basic {
-  color: #fff !important;
-  background: #ff9800 !important;
 }
 .level-badge.intermediate, .progress-bar.intermediate {
   color: #2196f3;
 }
-body.light-mode .level-badge.intermediate {
-  color: #fff !important;
-  background: #2196f3 !important;
-}
 .level-badge.advanced, .progress-bar.advanced {
   color: #4caf50;
 }
-body.light-mode .level-badge.advanced {
-  color: #fff !important;
-  background: #4caf50 !important;
-}
 .level-badge.expert, .progress-bar.expert {
   color: #ffd700;
-}
-body.light-mode .level-badge.expert {
-  color: #fff !important;
-  background: #ffd700 !important;
 }
