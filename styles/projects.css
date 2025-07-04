@@ -47,6 +47,24 @@ main section {
     text-align: justify;
 }
 
+/* 4K responsive design */
+@media (min-width: 1441px) { 
+  .card img {
+    height: 340px;
+  }
+  .card h3 {
+    font-size: 2.2rem;
+  }
+  .card p {
+    font-size: 2rem;
+    line-height: 1.7;
+  }
+
+  h2 {
+    font-size: 3rem;
+  }
+}
+
 /* Tablet responsive design */
 @media (max-width: 769px) { 
   main {

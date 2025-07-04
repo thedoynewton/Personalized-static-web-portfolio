@@ -133,6 +133,82 @@ h4 {
   border-radius: 50px;
 }
 
+/* 4K responsive design */
+@media (min-width: 1441px) { 
+  main {
+    max-width: 2200px;
+    margin: 0 auto;
+  }
+
+  .profile img {
+    width: 420px;
+    height: 420px;
+    border-width: 8px;
+  }
+
+  .profile h1 {
+    font-size: 3.5rem;
+  }
+
+  .sec-profile {
+    margin-top: 9rem;
+  }
+
+  .soft-skills button {
+    font-size: 1.6rem;
+    padding: 1rem 2.2rem;
+  }
+
+  .about-me img {
+    width: 420px;
+    height: 520px;
+  }
+
+  .about-content {
+    margin-left: 7rem;
+    font-size: 1.6rem;
+  }
+
+  .about-content p {
+    font-size: 1.5rem;
+    line-height: 2.2;
+  }
+
+  .icons img,
+  .tech-stack img {
+    width: 90px;
+    height: 90px;
+    padding: 12px;
+  }
+
+  .section-title h1 {
+    font-size: 3.7rem;
+  }
+
+  .experience-img {
+    width: 750px;
+    height: 500px;
+    margin-left: 20rem;
+  }
+
+  .experience-content h2 {
+    font-size: 3rem;
+  }
+
+  .experience-content h4 {
+    font-size: 2rem;
+  }
+
+  .experience-content h5 {
+    font-size: 1.6rem;
+  }
+
+  .experience-content p {
+    font-size: 1.6rem;
+    line-height: 2.2;
+  }
+}
+
 /* Tablet responsive design */
 @media (max-width: 769px) { 
   main {
