@@ -134,7 +134,255 @@ h4 {
 }
 
 /* Mobile responsive design for 320px devices */
-@media (max-width: 320px) {
+@media (max-width: 426px) {
+  main {
+    margin: 0 1rem;
+  }
+  
+  .profile img {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    border: 3px solid #272727;
+  }
+  
+  .profile h1 {
+    font-size: 1.8rem;
+  }
+  
+  .sec-profile {
+    margin-top: 2rem;
+    padding: 0 1rem;
+  }
+  
+  .soft-skills button {
+    padding: 0.4rem 0.8rem;
+    font-size: 0.9rem;
+    margin: 0.2rem;
+    display: inline-block;
+  }
+  
+  /* About Me Section */
+  .about-me {
+    flex-direction: column;
+    margin-top: 2rem;
+    text-align: center;
+  }
+  
+  .about-me img {
+    width: 150px;
+    height: 180px;
+    margin: 0 auto 1rem auto;
+  }
+  
+  .about-content {
+    margin-left: 0;
+    padding: 0 1rem;
+  }
+  
+  .about-content p {
+    font-size: 0.9rem;
+    line-height: 1.5;
+  }
+  
+  .icons {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    margin-top: 1rem;
+    flex-wrap: wrap;
+  }
+  
+  .icons img {
+    width: 40px;
+    height: 40px;
+    padding: 3px;
+  }
+  
+  /* Experience Section */
+  .section-title h1 {
+    font-size: 1.5rem;
+    margin: 1rem 0;
+  }
+  
+  .experience {
+    flex-direction: column;
+    margin-top: 2rem;
+    text-align: center;
+  }
+  
+  .experience-img {
+    width: 100%;
+    max-width: 280px;
+    height: auto;
+    margin: 0 auto 1rem auto;
+  }
+  
+  .experience-content {
+    padding: 0 1rem;
+  }
+  
+  .experience-content h2 {
+    font-size: 1.3rem;
+  }
+  
+  .experience-content h4 {
+    font-size: 1rem;
+  }
+  
+  .experience-content h5 {
+    font-size: 0.9rem;
+  }
+  
+  .experience-content p {
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    line-height: 1.5;
+  }
+  
+  /* Tech Stack */
+  .tech-stack {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    flex-wrap: wrap;
+  }
+  
+  .tech-stack img {
+    width: 40px;
+    height: 40px;
+    padding: 3px;
+  }
+
+}
+
+@media (max-width: 376px) {
+  main {
+    margin: 0 1rem;
+  }
+  
+  .profile img {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    border: 3px solid #272727;
+  }
+  
+  .profile h1 {
+    font-size: 1.8rem;
+  }
+  
+  .sec-profile {
+    margin-top: 2rem;
+    padding: 0 1rem;
+  }
+  
+  .soft-skills button {
+    padding: 0.4rem 0.8rem;
+    font-size: 0.9rem;
+    margin: 0.2rem;
+    display: inline-block;
+  }
+  
+  /* About Me Section */
+  .about-me {
+    flex-direction: column;
+    margin-top: 2rem;
+    text-align: center;
+  }
+  
+  .about-me img {
+    width: 150px;
+    height: 180px;
+    margin: 0 auto 1rem auto;
+  }
+  
+  .about-content {
+    margin-left: 0;
+    padding: 0 1rem;
+  }
+  
+  .about-content p {
+    font-size: 0.9rem;
+    line-height: 1.5;
+  }
+  
+  .icons {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    margin-top: 1rem;
+    flex-wrap: wrap;
+  }
+  
+  .icons img {
+    width: 40px;
+    height: 40px;
+    padding: 3px;
+  }
+  
+  /* Experience Section */
+  .section-title h1 {
+    font-size: 1.5rem;
+    margin: 1rem 0;
+  }
+  
+  .experience {
+    flex-direction: column;
+    margin-top: 2rem;
+    text-align: center;
+  }
+  
+  .experience-img {
+    width: 100%;
+    max-width: 280px;
+    height: auto;
+    margin: 0 auto 1rem auto;
+  }
+  
+  .experience-content {
+    padding: 0 1rem;
+  }
+  
+  .experience-content h2 {
+    font-size: 1.3rem;
+  }
+  
+  .experience-content h4 {
+    font-size: 1rem;
+  }
+  
+  .experience-content h5 {
+    font-size: 0.9rem;
+  }
+  
+  .experience-content p {
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    line-height: 1.5;
+  }
+  
+  /* Tech Stack */
+  .tech-stack {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    flex-wrap: wrap;
+  }
+  
+  .tech-stack img {
+    width: 40px;
+    height: 40px;
+    padding: 3px;
+  }
+
+}
+
+@media (max-width: 321px) {
   main {
     margin: 0 1rem;
   }

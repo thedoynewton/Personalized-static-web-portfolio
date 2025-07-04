@@ -48,7 +48,81 @@ main section {
 }
 
 /* Mobile responsive design for 320px devices */
-@media (max-width: 320px) {
+@media (max-width: 426px) {
+  main {
+    margin: 1rem;
+  }
+  
+  main section {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+  
+  .card {
+    border-radius: 12px;
+    margin-bottom: 1.5rem;
+  }
+  
+  .card:hover {
+    transform: translateY(-2px) scale(1.01);
+  }
+  
+  .card img {
+    height: 150px;
+  }
+  
+  .card h3 {
+    font-size: 1.1rem;
+    padding: 1rem 1rem 0.5rem 1rem;
+    margin: 0;
+  }
+  
+  .card p {
+    font-size: 0.9rem;
+    line-height: 1.4;
+    padding: 0 1rem 1rem 1rem;
+    margin: 0;
+  }
+}
+
+@media (max-width: 376px) {
+  main {
+    margin: 1rem;
+  }
+  
+  main section {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+  
+  .card {
+    border-radius: 12px;
+    margin-bottom: 1.5rem;
+  }
+  
+  .card:hover {
+    transform: translateY(-2px) scale(1.01);
+  }
+  
+  .card img {
+    height: 150px;
+  }
+  
+  .card h3 {
+    font-size: 1.1rem;
+    padding: 1rem 1rem 0.5rem 1rem;
+    margin: 0;
+  }
+  
+  .card p {
+    font-size: 0.9rem;
+    line-height: 1.4;
+    padding: 0 1rem 1rem 1rem;
+    margin: 0;
+  }
+}
+
+@media (max-width: 321px) {
   main {
     margin: 1rem;
   }

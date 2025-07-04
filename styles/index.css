@@ -32,7 +32,65 @@ section a {
 }
 
 /* Mobile responsive design for 320px devices */
-@media (max-width: 320px) {
+@media (max-width: 426px) {
+  .quote-block {
+    border-left: 3px solid #4fc1fe;
+    font-size: 1rem;
+    text-align: center;
+    padding: 0 1rem;
+    line-height: 1.4;
+    margin: 1rem 0;
+  }
+
+  button {
+    padding: 12px 16px;
+    font-size: 1rem;
+    width: 80%;
+    max-width: 280px;
+    margin: 4rem auto 0 auto;
+    border-radius: 8px;
+  }
+  
+  main {
+    margin-top: 5rem;
+    padding: 0 1rem;
+  }
+  
+  section {
+    padding: 1rem 0;
+  }
+}
+
+@media (max-width: 376px) {
+  .quote-block {
+    border-left: 3px solid #4fc1fe;
+    font-size: 1rem;
+    text-align: center;
+    padding: 0 1rem;
+    line-height: 1.4;
+    margin: 1rem 0;
+  }
+
+  button {
+    padding: 12px 16px;
+    font-size: 1rem;
+    width: 80%;
+    max-width: 280px;
+    margin: 4rem auto 0 auto;
+    border-radius: 8px;
+  }
+  
+  main {
+    margin-top: 5rem;
+    padding: 0 1rem;
+  }
+  
+  section {
+    padding: 1rem 0;
+  }
+}
+
+@media (max-width: 321px) {
   .quote-block {
     border-left: 3px solid #4fc1fe;
     font-size: 1rem;
