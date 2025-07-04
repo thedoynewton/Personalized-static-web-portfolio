@@ -1,12 +1,12 @@
 .quote-block {
-    border-left: 4px solid #0050ff;
+    border-left: 4px solid #0e5bff;
     font-style: italic;
     font-size: 3rem;
     text-align: center;
 }
 
 button {
-    background-color: #0050ff;
+    background-color: #0e5bff;
     color: white;
     border: none;
     padding: 10px 20px;
