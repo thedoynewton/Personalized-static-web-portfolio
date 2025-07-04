@@ -134,7 +134,7 @@ h4 {
 }
 
 /* 4K responsive design */
-@media (min-width: 1441px) { 
+@media (min-width: 1968px) { 
   main {
     max-width: 2200px;
     margin: 0 auto;

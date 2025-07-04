@@ -70,7 +70,7 @@ nav ul li a.active {
 }
 
 /* 4K responsive design */
-@media (min-width: 1441px) { 
+@media (min-width: 1968px) { 
   header {
     max-width: 1920px;
     margin: 0 auto;

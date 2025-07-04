@@ -48,7 +48,7 @@ main section {
 }
 
 /* 4K responsive design */
-@media (min-width: 1441px) { 
+@media (min-width: 1968px) { 
   .card img {
     height: 340px;
   }

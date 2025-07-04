@@ -105,7 +105,7 @@ h4 {
 }
 
 /* 4K responsive design */
-@media (min-width: 1441px) { 
+@media (min-width: 1968px) { 
   .card {
     height: 350px;
     font-size: 1.35rem;

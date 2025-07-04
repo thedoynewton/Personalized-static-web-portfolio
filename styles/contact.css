@@ -141,7 +141,7 @@
 }
 
 /* 4K responsive design */
-@media (min-width: 1441px) {
+@media (min-width: 1968px) {
   .phone-frame {
     width: 1200px;
     height: 600px;

@@ -32,7 +32,7 @@ section a {
 }
 
 /* 4K responsive design */
-@media (min-width: 1441px) { 
+@media (min-width: 1968px) { 
   .quote-block {
     font-size: 6rem;
     padding: 0 8rem;
