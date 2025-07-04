@@ -1,42 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Ramz- Web Portfolio</title>
-    <link rel="stylesheet" href="styles/header.css" />
-    <link rel="stylesheet" href="styles/global.css" />
-    <link rel="stylesheet" href="styles/blog.css" />
-    <link rel="stylesheet" href="styles/maintenance.css" />
-    <link rel="stylesheet" href="styles/footer.css" />
-  </head>
-  <body>
-    <header>
-      <img src="assets/logo.jpg" alt="Site Logo" />
 
-      <nav>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="projects.html">Projects</a></li>
-          <li><a href="techStack.html">Tech Stack</a></li>
-          <li><a href="blog.html" class="active">Blog</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-      </nav>
-    </header>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ramz- Web Portfolio</title>
+  <link rel="stylesheet" href="styles/header.css" />
+  <link rel="stylesheet" href="styles/global.css" />
+  <link rel="stylesheet" href="styles/blog.css" />
+  <link rel="stylesheet" href="styles/maintenance.css" />
+  <link rel="stylesheet" href="styles/footer.css" />
+</head>
 
-    <main>
-      <section>
-        <div class="under-maintenance">
-          <h1>Blog Under Maintenance</h1>
-          <p>Currently updating this section. Please check back soon!</p>
-        </div>
-      </section>
-    </main>
+<body>
+  <header>
+    <img src="assets/logo.jpg" alt="Site Logo" />
 
-    <footer>
-      <p>© 2025 ramz. All rights reserved.</p>
-    </footer>
-  </body>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="techStack.html">Tech Stack</a></li>
+        <li><a href="blog.html" class="active">Blog</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="burger-menu" onclick="toggleMenu()">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </header>
+
+  <main>
+    <section>
+      <div class="under-maintenance">
+        <h1>Blog Under Maintenance</h1>
+        <p>Currently updating this section. Please check back soon!</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 ramz. All rights reserved.</p>
+  </footer>
+
+  <script>
+    function toggleMenu() {
+      const nav = document.querySelector('nav');
+      const burger = document.querySelector('.burger-menu');
+
+      nav.classList.toggle('active');
+      burger.classList.toggle('active');
+    }
+  </script>
+</body>
+
 </html>

@@ -1,32 +1,62 @@
 .quote-block {
-    border-left: 4px solid #4fc1fe;
-    font-style: italic;
-    font-size: 3rem;
-    text-align: center;
+  border-left: 4px solid #4fc1fe;
+  font-style: italic;
+  font-size: 3rem;
+  text-align: center;
 }
 
 button {
-    background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    font-size: 1.2rem;
-    cursor: pointer;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
-    display: block;
-    margin: 20px auto 0 auto;
+  background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  display: block;
+  margin: 20px auto 0 auto;
 }
 
 button:hover {
-    color: black;
-    font-weight: 600;
+  color: black;
+  font-weight: 600;
 }
 
 main {
-    margin-top: 7rem;
+  margin-top: 7rem;
 }
 
 section a {
-    text-decoration: none;
+  text-decoration: none;
+}
+
+/* Mobile responsive design for 320px devices */
+@media (max-width: 320px) {
+  .quote-block {
+    border-left: 3px solid #4fc1fe;
+    font-size: 1rem;
+    text-align: center;
+    padding: 0 1rem;
+    line-height: 1.4;
+    margin: 1rem 0;
+  }
+
+  button {
+    padding: 12px 16px;
+    font-size: 1rem;
+    width: 80%;
+    max-width: 280px;
+    margin: 4rem auto 0 auto;
+    border-radius: 8px;
+  }
+  
+  main {
+    margin-top: 5rem;
+    padding: 0 1rem;
+  }
+  
+  section {
+    padding: 1rem 0;
+  }
 }

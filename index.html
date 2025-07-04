@@ -25,6 +25,12 @@
         <li><a href="contact.html">Contact</a></li>
       </ul>
     </nav>
+
+    <div class="burger-menu" onclick="toggleMenu()">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
   </header>
 
   <main>
@@ -46,6 +52,16 @@
   <footer>
     <p>© 2025 ramz. All rights reserved.</p>
   </footer>
+
+  <script>
+    function toggleMenu() {
+      const nav = document.querySelector('nav');
+      const burger = document.querySelector('.burger-menu');
+
+      nav.classList.toggle('active');
+      burger.classList.toggle('active');
+    }
+  </script>
 </body>
 
 </html>

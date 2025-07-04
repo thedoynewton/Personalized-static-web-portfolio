@@ -1,108 +1,128 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Ramz- Web Portfolio</title>
-    <link rel="stylesheet" href="styles/header.css" />
-    <link rel="stylesheet" href="styles/global.css" />
-    <link rel="stylesheet" href="styles/about.css" />
-    <link rel="stylesheet" href="styles/footer.css" />
-  </head>
-  <body>
-    <header>
-      <img src="assets/logo.jpg" alt="Site Logo" />
 
-      <nav>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about.html" class="active">About</a></li>
-          <li><a href="projects.html">Projects</a></li>
-          <li><a href="techStack.html">Tech Stack</a></li>
-          <li><a href="blog.html">Blog</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-      </nav>
-    </header>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ramz- Web Portfolio</title>
+  <link rel="stylesheet" href="styles/header.css" />
+  <link rel="stylesheet" href="styles/global.css" />
+  <link rel="stylesheet" href="styles/about.css" />
+  <link rel="stylesheet" href="styles/footer.css" />
+</head>
 
-    <main>
-      <section class="sec-profile">
-        <div class="profile">
-          <img src="assets/profile.jpg" alt="profile" />
-          <h1>Diosdado Isaac Ramos</h1>
-          <h3>- Web Developer -</h3>
+<body>
+  <header>
+    <img src="assets/logo.jpg" alt="Site Logo" />
+
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html" class="active">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="techStack.html">Tech Stack</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="burger-menu" onclick="toggleMenu()">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </header>
+
+  <main>
+    <section class="sec-profile">
+      <div class="profile">
+        <img src="assets/profile.jpg" alt="profile" />
+        <h1>Diosdado Isaac Ramos</h1>
+        <h3>- Web Developer -</h3>
+      </div>
+      <div class="soft-skills">
+        <button disabled="disabled">Tech-savvy</button>
+        <button disabled="disabled">Adaptable</button>
+        <button disabled="disabled">Curious</button>
+        <button disabled="disabled">Willing to learn</button>
+        <button disabled="disabled">Problem-based learning</button>
+      </div>
+    </section>
+    <section class="about-me">
+      <img src="assets/aboutMe.jpg" alt="image" />
+      <div class="about-content">
+        <h3>About Me</h3>
+        <p>
+          I am web developer, highly motivated and quick-learning individual
+          eager to contribute to the development of modern web solutions.<br /><br />
+          Proficient in building contemporary designs and collaborating
+          effectively to create impactful computing solutions, including
+          systems for inventory management, broadcasting SMS systems,
+          e-commerce, and marketplace platforms. Experienced in database
+          management using SQL Server, Supabase, and MySQL.
+        </p>
+        <div class="icons">
+          <a href="https://github.com/thedoynewton">
+            <img src="assets/github.svg" alt="image" />
+          </a>
+          <a href="https://www.facebook.com/Diosdado04">
+            <img src="assets/facebook.svg" alt="image" />
+          </a>
+          <a href="https://www.instagram.com/dd_ram0s/">
+            <img src="assets/instagram.svg" alt="image" />
+          </a>
+          <a href="https://www.linkedin.com/in/diosdado-ramos-920b39336/">
+            <img src="assets/linkedin.svg" alt="image" />
+          </a>
+          <a href="https://mail.google.com/mail/?view=cm&to=diosdado.isaac.ramos@gmail.com" target="_blank"
+            rel="noopener">
+            <img src="assets/gmail.svg" alt="image" />
+          </a>
         </div>
-        <div class="soft-skills">
-          <button disabled="disabled">Tech-savvy</button>
-          <button disabled="disabled">Adaptable</button>
-          <button disabled="disabled">Curious</button>
-          <button disabled="disabled">Willing to learn</button>
-          <button disabled="disabled">Problem-based learning</button>
-        </div>
-      </section>
-      <section class="about-me">
-        <img src="assets/aboutMe.jpg" alt="image" />
-        <div class="about-content">
-          <h3>About Me</h3>
+      </div>
+    </section>
+    <section>
+      <div class="section-title">
+        <hr />
+        <h1>My Experience</h1>
+        <hr />
+      </div>
+      <div class="experience">
+        <div class="experience-content">
+          <h2>Student Intern Developer</h2>
+          <h4>USeP - Systems Development and Management Data Office</h4>
+          <h5>June 2024 - December 2025</h5>
           <p>
-            I am web developer, highly motivated and quick-learning individual
-            eager to contribute to the development of modern web solutions.<br /><br />
-            Proficient in building contemporary designs and collaborating
-            effectively to create impactful computing solutions, including
-            systems for inventory management, broadcasting SMS systems,
-            e-commerce, and marketplace platforms. Experienced in database
-            management using SQL Server, Supabase, and MySQL.
+            Developed a SMS Broadcasting System for students and employees to
+            all campuses of University of Southeastern Philippines using
+            Laravel 11 and SQL Server database, enhancing communication across
+            all campuses.
           </p>
-          <div class="icons">
-            <a href="https://github.com/thedoynewton">
-              <img src="assets/github.svg" alt="image" />
-            </a>
-            <a href="https://www.facebook.com/Diosdado04">
-              <img src="assets/facebook.svg" alt="image" />
-            </a>
-            <a href="https://www.instagram.com/dd_ram0s/">
-              <img src="assets/instagram.svg" alt="image" />
-            </a>
-            <a href="https://www.linkedin.com/in/diosdado-ramos-920b39336/">
-              <img src="assets/linkedin.svg" alt="image" />
-            </a>
-            <a href="https://mail.google.com/mail/?view=cm&to=diosdado.isaac.ramos@gmail.com" target="_blank" rel="noopener">
-              <img src="assets/gmail.svg" alt="image" />
-            </a>
+          <div class="tech-stack">
+            <img src="assets/laravel.png" alt="image" />
+            <img src="assets/sqlserver.svg" alt="image" />
+            <img src="assets/js.svg" alt="image" />
+            <img src="assets/php.svg" alt="image" />
           </div>
         </div>
-      </section>
-      <section>
-        <div class="section-title">
-          <hr />
-          <h1>My Experience</h1>
-          <hr />
-        </div>
-        <div class="experience">
-          <div class="experience-content">
-            <h2>Student Intern Developer</h2>
-            <h4>USeP - Systems Development and Management Data Office</h4>
-            <h5>June 2024 - December 2025</h5>
-            <p>
-              Developed a SMS Broadcasting System for students and employees to
-              all campuses of University of Southeastern Philippines using
-              Laravel 11 and SQL Server database, enhancing communication across
-              all campuses.
-            </p>
-            <div class="tech-stack">
-              <img src="assets/laravel.png" alt="image" />
-              <img src="assets/sqlserver.svg" alt="image" />
-              <img src="assets/js.svg" alt="image" />
-              <img src="assets/php.svg" alt="image" />
-            </div>
-          </div>
-          <img class="experience-img" src="assets/intern.jpg" alt="image" />
-        </div>
-      </section>
-    </main>
+        <img class="experience-img" src="assets/intern.jpg" alt="image" />
+      </div>
+    </section>
+  </main>
 
-    <footer>
-      <p>© 2025 ramz. All rights reserved.</p>
-    </footer>
-  </body>
+  <footer>
+    <p>© 2025 ramz. All rights reserved.</p>
+  </footer>
+
+  <script>
+    function toggleMenu() {
+      const nav = document.querySelector('nav');
+      const burger = document.querySelector('.burger-menu');
+
+      nav.classList.toggle('active');
+      burger.classList.toggle('active');
+    }
+  </script>
+</body>
+
 </html>

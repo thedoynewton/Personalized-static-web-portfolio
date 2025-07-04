@@ -1,54 +1,144 @@
 header {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 0;
-    height: 80px;
-    width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  height: 80px;
+  width: 100%;
 }
 
 header img {
-    width: 50px;
-    height: 50px;
-    border-radius: 10%;
-    margin-left: 3rem;
+  width: 50px;
+  height: 50px;
+  border-radius: 10%;
+  margin-left: 3rem;
 }
 
 /* NAV */
 
 nav {
-    background: none;
-    padding: 0;
-    height: auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex: 1;
+  background: none;
+  padding: 0;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
 }
 
 nav ul {
-    list-style: none;
-    display: flex;
-    gap: 10px;
-    margin: 0;
-    padding: 0;
+  list-style: none;
+  display: flex;
+  gap: 10px;
+  margin: 0;
+  padding: 0;
 }
 
 nav ul li a {
-    color: #fffbe7;
-    text-decoration: none;
-    font-size: 1rem;
-    font-weight: 600;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    background: none;
-    padding: 8px 12px;
-    border-radius: 4px;
-    transition: color 0.2s;
+  color: #fffbe7;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  background: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  transition: color 0.2s;
 }
 
 nav ul li a:hover,
 nav ul li a.active {
-    background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
-    /* background: none; */
+  background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+}
+
+/* Burger menu styles */
+.burger-menu {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+  margin-right: 3rem;
+}
+
+.burger-menu span {
+  width: 25px;
+  height: 3px;
+  background-color: #fffbe7;
+  margin: 3px 0;
+  transition: 0.3s;
+  border-radius: 2px;
+}
+
+/* Mobile responsive design for 320px devices */
+@media (max-width: 320px) {
+  header {
+    justify-content: space-between;
+    padding: 0;
+    position: relative;
+  }
+
+  header img {
+    margin-left: 1rem;
+    width: 40px;
+    height: 40px;
+  }
+
+  .burger-menu {
+    display: flex;
+    margin-right: 1rem;
+  }
+
+  nav {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.95);
+    transform: translateY(-100%);
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease;
+    z-index: 1000;
+  }
+
+  nav.active {
+    transform: translateY(0);
+    opacity: 1;
+    visibility: visible;
+  }
+
+  nav ul {
+    flex-direction: column;
+    gap: 0;
+    padding: 1rem 0;
+  }
+
+  nav ul li {
+    width: 100%;
+    text-align: center;
+  }
+
+  nav ul li a {
+    display: block;
+    padding: 15px 20px;
+    font-size: 0.9rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  }
+
+  nav ul li:last-child a {
+    border-bottom: none;
+  }
+
+  /* Burger animation when active */
+  .burger-menu.active span:nth-child(1) {
+    transform: rotate(-45deg) translate(-5px, 6px);
+  }
+
+  .burger-menu.active span:nth-child(2) {
+    opacity: 0;
+  }
+
+  .burger-menu.active span:nth-child(3) {
+    transform: rotate(45deg) translate(-5px, -6px);
+  }
 }
