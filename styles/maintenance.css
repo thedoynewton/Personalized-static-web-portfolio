@@ -1,16 +1,25 @@
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+  padding: 2rem;
+  background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+}
+
 .under-maintenance {
-  background: #232323;
+  background: white;
   border-radius: 24px;
-  box-shadow: 0 4px 32px rgba(0,0,0,0.18);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
   padding: 48px 32px;
   margin: 60px auto 0 auto;
   max-width: 480px;
   text-align: center;
-  border: 2px solid #232336;
+  border: 5px solid #232336;
 }
 
 .under-maintenance h1 {
-  color: #fff;
+  color: black;
   font-size: 2rem;
   font-weight: 700;
   margin-bottom: 18px;
@@ -18,7 +27,7 @@
 }
 
 .under-maintenance p {
-  color: #bdbdbd;
+  color: black;
   font-size: 1.15rem;
   margin: 0;
   line-height: 1.5;

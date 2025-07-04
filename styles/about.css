@@ -18,7 +18,7 @@ main {
 }
 
 .profile img:hover {
-  border-color: #0e5bff;
+  border-color: #4facfe;
   transition: border-color 0.3s ease;
 }
 
@@ -31,11 +31,19 @@ main {
 .soft-skills {
   button {
     color: #fff;
-    background-color: #0e5bff;
+    background-color: #4facfe;
     border-radius: 20px;
     padding: 0.5rem 1rem;
     font-size: 1rem;
+    margin: 0 0.1rem;
   }
+}
+
+.soft-skills button:hover {
+  background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+  transition: background-color 0.3s ease;
+  font-weight: 600;
+  color:  black;
 }
 
 /* 2nd section */
@@ -68,6 +76,11 @@ main {
 
 .icons a {
   text-decoration: none;
+}
+
+.icons img:hover {
+  transform: translateY(-4px) scale(1.02);
+  box-shadow: 0 2px 12px 0 rgba(79, 172, 254, 0.25), 0 2px 24px 0 rgba(0, 242, 254, 0.18);
 }
 
 /* 3rd section */

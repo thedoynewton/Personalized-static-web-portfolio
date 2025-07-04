@@ -49,6 +49,6 @@ nav ul li a {
 
 nav ul li a:hover,
 nav ul li a.active {
-    color: #407bff;
-    background: none;
+    background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+    /* background: none; */
 }

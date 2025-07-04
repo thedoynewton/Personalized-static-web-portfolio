@@ -1,12 +1,12 @@
 .quote-block {
-    border-left: 4px solid #0e5bff;
+    border-left: 4px solid #4fc1fe;
     font-style: italic;
     font-size: 3rem;
     text-align: center;
 }
 
 button {
-    background-color: #0e5bff;
+    background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
     color: white;
     border: none;
     padding: 10px 20px;
@@ -18,6 +18,15 @@ button {
     margin: 20px auto 0 auto;
 }
 
+button:hover {
+    color: black;
+    font-weight: 600;
+}
+
 main {
     margin-top: 7rem;
+}
+
+section a {
+    text-decoration: none;
 }
