@@ -363,7 +363,8 @@ h4 {
 
   .soft-skills button {
     color: #fff;
-    background-color: #4facfe;
+    background-color: red;
+    border-radius: 20px;
     padding: 0.4rem 0.8rem;
     font-size: 0.9rem;
     margin: 0.2rem;
@@ -490,6 +491,7 @@ h4 {
     button {
       color: #fff;
       background-color: #4facfe;
+      border-radius: 20px;
       padding: 0.4rem 0.8rem;
       font-size: 0.9rem;
       margin: 0.2rem;
@@ -617,6 +619,7 @@ h4 {
     button {
       color: #fff;
       background-color: #4facfe;
+      border-radius: 20px;
       padding: 0.4rem 0.8rem;
       font-size: 0.9rem;
       margin: 0.2rem;
