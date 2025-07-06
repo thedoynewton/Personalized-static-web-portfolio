@@ -43,7 +43,7 @@ main {
   background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
   transition: background-color 0.3s ease;
   font-weight: 600;
-  color:  black;
+  color: black;
 }
 
 /* 2nd section */
@@ -80,7 +80,8 @@ main {
 
 .icons img:hover {
   transform: translateY(-4px) scale(1.02);
-  box-shadow: 0 2px 12px 0 rgba(79, 172, 254, 0.25), 0 2px 24px 0 rgba(0, 242, 254, 0.18);
+  box-shadow: 0 2px 12px 0 rgba(79, 172, 254, 0.25),
+    0 2px 24px 0 rgba(0, 242, 254, 0.18);
 }
 
 /* 3rd section */
@@ -106,7 +107,7 @@ main {
 }
 
 .position {
-  color: #6EC1E4;
+  color: #6ec1e4;
 }
 
 .experience-content h2,
@@ -129,7 +130,7 @@ h4 {
   text-align: justify;
 }
 
-.tech-stack img{
+.tech-stack img {
   background-color: #141414;
   width: 50px;
   height: 50px;
@@ -138,7 +139,7 @@ h4 {
 }
 
 /* 4K responsive design */
-@media (min-width: 1968px) { 
+@media (min-width: 1968px) {
   main {
     max-width: 2200px;
     margin: 0 auto;
@@ -214,7 +215,7 @@ h4 {
 }
 
 /* Tablet responsive design */
-@media (max-width: 769px) { 
+@media (max-width: 769px) {
   main {
     margin: 0 1.5rem;
   }
@@ -343,53 +344,53 @@ h4 {
   main {
     margin: 0 1rem;
   }
-  
+
   .profile img {
     width: 130px;
     height: 130px;
     border-radius: 50%;
     border: 3px solid #272727;
   }
-  
+
   .profile h1 {
     font-size: 1.8rem;
   }
-  
+
   .sec-profile {
     margin-top: 2rem;
     padding: 0 1rem;
   }
-  
+
   .soft-skills button {
     padding: 0.4rem 0.8rem;
     font-size: 0.9rem;
     margin: 0.2rem;
     display: inline-block;
   }
-  
+
   /* About Me Section */
   .about-me {
     flex-direction: column;
     margin-top: 2rem;
     text-align: center;
   }
-  
+
   .about-me img {
     width: 150px;
     height: 180px;
     margin: 0 auto 1rem auto;
   }
-  
+
   .about-content {
     margin-left: 0;
     padding: 0 1rem;
   }
-  
+
   .about-content p {
     font-size: 0.9rem;
     line-height: 1.5;
   }
-  
+
   .icons {
     display: flex;
     justify-content: center;
@@ -397,54 +398,54 @@ h4 {
     margin-top: 1rem;
     flex-wrap: wrap;
   }
-  
+
   .icons img {
     width: 40px;
     height: 40px;
     padding: 3px;
   }
-  
+
   /* Experience Section */
   .section-title h1 {
     font-size: 1.5rem;
     margin: 1rem 0;
   }
-  
+
   .experience {
     flex-direction: column;
     margin-top: 2rem;
     text-align: center;
   }
-  
+
   .experience-img {
     width: 100%;
     max-width: 280px;
     height: auto;
     margin: 0 auto 1rem auto;
   }
-  
+
   .experience-content {
     padding: 0 1rem;
   }
-  
+
   .experience-content h2 {
     font-size: 1.3rem;
   }
-  
+
   .experience-content h4 {
     font-size: 1rem;
   }
-  
+
   .experience-content h5 {
     font-size: 0.9rem;
   }
-  
+
   .experience-content p {
     margin-top: 1rem;
     font-size: 0.9rem;
     line-height: 1.5;
   }
-  
+
   /* Tech Stack */
   .tech-stack {
     display: flex;
@@ -454,66 +455,67 @@ h4 {
     margin-bottom: 1rem;
     flex-wrap: wrap;
   }
-  
+
   .tech-stack img {
     width: 40px;
     height: 40px;
     padding: 3px;
   }
-
 }
 
 @media (max-width: 376px) {
   main {
     margin: 0 1rem;
   }
-  
+
   .profile img {
     width: 130px;
     height: 130px;
     border-radius: 50%;
     border: 3px solid #272727;
   }
-  
+
   .profile h1 {
     font-size: 1.8rem;
   }
-  
+
   .sec-profile {
     margin-top: 2rem;
     padding: 0 1rem;
   }
-  
-  .soft-skills button {
-    padding: 0.4rem 0.8rem;
-    font-size: 0.9rem;
-    margin: 0.2rem;
-    display: inline-block;
+
+  .soft-skills {
+    button {
+      padding: 0.4rem 0.8rem;
+      font-size: 0.9rem;
+      margin: 0.2rem;
+      display: inline-block;
+    }
   }
-  
+
   /* About Me Section */
   .about-me {
     flex-direction: column;
     margin-top: 2rem;
     text-align: center;
   }
-  
+
   .about-me img {
     width: 150px;
     height: 180px;
     margin: 0 auto 1rem auto;
   }
-  
+
   .about-content {
     margin-left: 0;
     padding: 0 1rem;
   }
-  
+
   .about-content p {
     font-size: 0.9rem;
     line-height: 1.5;
   }
-  
+
   .icons {
     display: flex;
     justify-content: center;
@@ -521,54 +523,54 @@ h4 {
     margin-top: 1rem;
     flex-wrap: wrap;
   }
-  
+
   .icons img {
     width: 40px;
     height: 40px;
     padding: 3px;
   }
-  
+
   /* Experience Section */
   .section-title h1 {
     font-size: 1.5rem;
     margin: 1rem 0;
   }
-  
+
   .experience {
     flex-direction: column;
     margin-top: 2rem;
     text-align: center;
   }
-  
+
   .experience-img {
     width: 100%;
     max-width: 280px;
     height: auto;
     margin: 0 auto 1rem auto;
   }
-  
+
   .experience-content {
     padding: 0 1rem;
   }
-  
+
   .experience-content h2 {
     font-size: 1.3rem;
   }
-  
+
   .experience-content h4 {
     font-size: 1rem;
   }
-  
+
   .experience-content h5 {
     font-size: 0.9rem;
   }
-  
+
   .experience-content p {
     margin-top: 1rem;
     font-size: 0.9rem;
     line-height: 1.5;
   }
-  
+
   /* Tech Stack */
   .tech-stack {
     display: flex;
@@ -578,66 +580,67 @@ h4 {
     margin-bottom: 1rem;
     flex-wrap: wrap;
   }
-  
+
   .tech-stack img {
     width: 40px;
     height: 40px;
     padding: 3px;
   }
-
 }
 
 @media (max-width: 321px) {
   main {
     margin: 0 1rem;
   }
-  
+
   .profile img {
     width: 130px;
     height: 130px;
     border-radius: 50%;
     border: 3px solid #272727;
   }
-  
+
   .profile h1 {
     font-size: 1.8rem;
   }
-  
+
   .sec-profile {
     margin-top: 2rem;
     padding: 0 1rem;
   }
-  
-  .soft-skills button {
-    padding: 0.4rem 0.8rem;
-    font-size: 0.9rem;
-    margin: 0.2rem;
-    display: inline-block;
+
+  .soft-skills {
+    button {
+      padding: 0.4rem 0.8rem;
+      font-size: 0.9rem;
+      margin: 0.2rem;
+      display: inline-block;
+    }
   }
-  
+
   /* About Me Section */
   .about-me {
     flex-direction: column;
     margin-top: 2rem;
     text-align: center;
   }
-  
+
   .about-me img {
     width: 150px;
     height: 180px;
     margin: 0 auto 1rem auto;
   }
-  
+
   .about-content {
     margin-left: 0;
     padding: 0 1rem;
   }
-  
+
   .about-content p {
     font-size: 0.9rem;
     line-height: 1.5;
   }
-  
+
   .icons {
     display: flex;
     justify-content: center;
@@ -645,54 +648,54 @@ h4 {
     margin-top: 1rem;
     flex-wrap: wrap;
   }
-  
+
   .icons img {
     width: 40px;
     height: 40px;
     padding: 3px;
   }
-  
+
   /* Experience Section */
   .section-title h1 {
     font-size: 1.5rem;
     margin: 1rem 0;
   }
-  
+
   .experience {
     flex-direction: column;
     margin-top: 2rem;
     text-align: center;
   }
-  
+
   .experience-img {
     width: 100%;
     max-width: 280px;
     height: auto;
     margin: 0 auto 1rem auto;
   }
-  
+
   .experience-content {
     padding: 0 1rem;
   }
-  
+
   .experience-content h2 {
     font-size: 1.3rem;
   }
-  
+
   .experience-content h4 {
     font-size: 1rem;
   }
-  
+
   .experience-content h5 {
     font-size: 0.9rem;
   }
-  
+
   .experience-content p {
     margin-top: 1rem;
     font-size: 0.9rem;
     line-height: 1.5;
   }
-  
+
   /* Tech Stack */
   .tech-stack {
     display: flex;
@@ -702,11 +705,10 @@ h4 {
     margin-bottom: 1rem;
     flex-wrap: wrap;
   }
-  
+
   .tech-stack img {
     width: 40px;
     height: 40px;
     padding: 3px;
   }
-
 }
