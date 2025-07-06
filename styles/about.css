@@ -361,14 +361,16 @@ h4 {
     padding: 0 1rem;
   }
 
-  .soft-skills button {
-    color: #fff;
-    background-color: red;
-    border-radius: 20px;
-    padding: 0.4rem 0.8rem;
-    font-size: 0.9rem;
-    margin: 0.2rem;
-    display: inline-block;
+  .soft-skills {
+    button {
+      color: #fff;
+      background-color: #4facfe;
+      border-radius: 20px;
+      padding: 0.4rem 0.8rem;
+      font-size: 0.9rem;
+      margin: 0.2rem;
+      display: inline-block;
+    }
   }
 
   /* About Me Section */
