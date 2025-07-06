@@ -28,15 +28,13 @@ main {
   margin-top: 5rem;
 }
 
-.soft-skills {
-  button {
+.soft-skills button {
     color: #fff;
     background-color: #4facfe;
     border-radius: 20px;
     padding: 0.5rem 1rem;
     font-size: 1rem;
     margin: 0 0.1rem;
-  }
 }
 
 .soft-skills button:hover {
@@ -362,9 +360,6 @@ h4 {
   }
 
   .soft-skills button {
-      color: #fff;
-      background-color: #4facfe;
-      border-radius: 20px;
       padding: 0.4rem 0.8rem;
       font-size: 0.9rem;
       margin: 0.2rem;
@@ -487,16 +482,11 @@ h4 {
     padding: 0 1rem;
   }
 
-  .soft-skills {
-    button {
-      color: #fff;
-      background-color: #4facfe;
-      border-radius: 20px;
+  .soft-skills button {
       padding: 0.4rem 0.8rem;
       font-size: 0.9rem;
       margin: 0.2rem;
       display: inline-block;
-    }
   }
 
   /* About Me Section */
@@ -615,16 +605,11 @@ h4 {
     padding: 0 1rem;
   }
 
-  .soft-skills {
-    button {
-      color: #fff;
-      background-color: #4facfe;
-      border-radius: 20px;
+  .soft-skills button {
       padding: 0.4rem 0.8rem;
       font-size: 0.9rem;
       margin: 0.2rem;
       display: inline-block;
-    }
   }
 
   /* About Me Section */
