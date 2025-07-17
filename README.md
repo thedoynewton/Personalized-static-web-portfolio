@@ -1,5 +1,7 @@
 # Personalized - Web Portfolio ( Dark theme )
 
+Simple, Fast, Creative, and SEO optimization web portfolio design
+
 ## Features
 
 - Mobile Responsive
