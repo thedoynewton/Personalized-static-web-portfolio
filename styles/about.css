@@ -29,12 +29,12 @@ main {
 }
 
 .soft-skills button {
-    color: #fff;
-    background-color: #4facfe;
-    border-radius: 20px;
-    padding: 0.5rem 1rem;
-    font-size: 1rem;
-    margin: 0 0.1rem;
+  color: #fff;
+  background-color: #4facfe;
+  border-radius: 20px;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  margin: 0 0.1rem;
 }
 
 .soft-skills button:hover {
@@ -45,13 +45,22 @@ main {
 }
 
 /* 2nd section */
-.about-me img {
-  width: 250px;
-  height: 300px;
-}
-
 .about-content {
   margin-left: 3rem;
+}
+
+.about-content p {
+  font-weight: 100;
+  line-height: 1.5;
+}
+.about-content span {
+  font-weight: bold;
+  color: #4facfe;
+}
+
+.about-me img {
+  width: 500px;
+  height: 650px;
 }
 
 .about-me {
@@ -137,7 +146,7 @@ h4 {
 }
 
 /* 4K responsive design */
-@media (min-width: 1968px) {
+/* @media (min-width: 1968px) {
   main {
     max-width: 2200px;
     margin: 0 auto;
@@ -210,10 +219,18 @@ h4 {
     font-size: 1.6rem;
     line-height: 2.2;
   }
+} */
+
+@media (max-width: 1024px) {
+  .about-content p {
+    font-weight: 100;
+    line-height: 1.5;
+    font-size: 13px;
+  }
 }
 
 /* Tablet responsive design */
-@media (max-width: 769px) {
+@media (max-width: 768px) {
   main {
     margin: 0 1.5rem;
   }
@@ -249,8 +266,8 @@ h4 {
   }
 
   .about-me img {
-    width: 180px;
-    height: 220px;
+    width: 300px;
+    height: 380px;
     margin: 0 auto 1rem auto;
   }
 
@@ -338,7 +355,7 @@ h4 {
 }
 
 /* Mobile responsive design */
-@media (max-width: 426px) {
+@media (max-width: 425px) {
   main {
     margin: 0 1rem;
   }
@@ -360,10 +377,10 @@ h4 {
   }
 
   .soft-skills button {
-      padding: 0.4rem 0.8rem;
-      font-size: 0.9rem;
-      margin: 0.2rem;
-      display: inline-block;
+    padding: 0.4rem 0.8rem;
+    font-size: 0.9rem;
+    margin: 0.2rem;
+    display: inline-block;
   }
 
   /* About Me Section */
@@ -371,12 +388,6 @@ h4 {
     flex-direction: column;
     margin-top: 2rem;
     text-align: center;
-  }
-
-  .about-me img {
-    width: 150px;
-    height: 180px;
-    margin: 0 auto 1rem auto;
   }
 
   .about-content {
@@ -461,7 +472,7 @@ h4 {
   }
 }
 
-@media (max-width: 376px) {
+@media (max-width: 375px) {
   main {
     margin: 0 1rem;
   }
@@ -483,10 +494,10 @@ h4 {
   }
 
   .soft-skills button {
-      padding: 0.4rem 0.8rem;
-      font-size: 0.9rem;
-      margin: 0.2rem;
-      display: inline-block;
+    padding: 0.4rem 0.8rem;
+    font-size: 0.9rem;
+    margin: 0.2rem;
+    display: inline-block;
   }
 
   /* About Me Section */
@@ -497,9 +508,8 @@ h4 {
   }
 
   .about-me img {
-    width: 150px;
-    height: 180px;
-    margin: 0 auto 1rem auto;
+    width: 250px;
+    height: 300px;
   }
 
   .about-content {
@@ -584,7 +594,7 @@ h4 {
   }
 }
 
-@media (max-width: 321px) {
+@media (max-width: 320px) {
   main {
     margin: 0 1rem;
   }
@@ -606,10 +616,10 @@ h4 {
   }
 
   .soft-skills button {
-      padding: 0.4rem 0.8rem;
-      font-size: 0.9rem;
-      margin: 0.2rem;
-      display: inline-block;
+    padding: 0.4rem 0.8rem;
+    font-size: 0.9rem;
+    margin: 0.2rem;
+    display: inline-block;
   }
 
   /* About Me Section */
@@ -620,9 +630,8 @@ h4 {
   }
 
   .about-me img {
-    width: 150px;
-    height: 180px;
-    margin: 0 auto 1rem auto;
+    width: 200px;
+    height: 250px;
   }
 
   .about-content {
